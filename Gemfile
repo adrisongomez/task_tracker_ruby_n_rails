@@ -73,3 +73,12 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "haml", "~> 5.2"
+
+gem "haml-rails", "~> 2.0"
+
+gem "simple_form", "~> 5.1"
+
+
+gem "pg", "~> 1.1"
