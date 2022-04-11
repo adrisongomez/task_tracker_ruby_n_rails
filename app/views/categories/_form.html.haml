@@ -1,0 +1,17 @@
+-# frozen_string_literal: true
+= simple_form_for(@category) do |f|
+  = f.error_notification
+  = f.error_notification message: f.object.errors[:base].to_sentence if f.object.errors[:base].present?
+
+  .form-inputs
+    %div.container.flex.items-center.my-6
+      = f.label :name, class: "mr-2" 
+      = f.input_field :name
+
+
+    %div.container.flex.items-center.my-6
+      = f.label :description, class: "mr-2" 
+      = f.input_field :description
+
+  .form-actions
+    = f.button :submit

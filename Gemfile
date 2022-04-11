@@ -82,3 +82,7 @@ gem "simple_form", "~> 5.1"
 
 
 gem "pg", "~> 1.1"
+
+gem "annotate", "~> 3.2"
+
+gem "devise", "~> 4.8"
